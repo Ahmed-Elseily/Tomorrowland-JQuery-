@@ -1,0 +1,157 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{header-sction}}}}}}}}}}}}}}}}}}}}}}} */
+.header {
+    height: 100vh;
+    background-image: linear-gradient(135deg, #fcf6b348, #f6f9ae6b), url(../Tomorrowland_2023.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header p {
+    font-weight: 500;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{sidebar-sction}}}}}}}}}}}}}}}}}}}}}}} */
+
+.side-bar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -200px;
+    background: #FFFF32;
+    background: linear-gradient(135deg, #ffffff80, #fae6a6b5);
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+}
+
+.side-bar a {
+    color: white;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+
+.side-bar i {
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+
+}
+
+.side-bar a:hover {
+    color: #F9EDCA;
+}
+
+.side-bar i:hover {
+    color: #F9EDCA;
+
+}
+
+.sidebar-btn {
+    width: 50%;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+}
+
+
+
+
+/* <!-- /* {{{{{{{{{{{{{{{{{{{{{{{DJ-sction}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+.DJs h3 {
+    background-color: #FDDD7C;
+    margin: 0;
+}
+
+.DJs p {
+    background-color: #fddd7c3a;
+    margin: 0;
+}
+
+
+.djs-inner{
+    display: none;
+}
+
+.slider {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* <!-- /* {{{{{{{{{{{{{{{{{{{{{{{joinus-sction}}}}}}}}}}}}}}}}}}}}}}} */
+.join-us {
+    background-image: linear-gradient(135deg, #faf2978d, #f6f9ae8d), url(../Tomorrowland_2023.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.duration div {
+    width: 250px;
+    height: 100px;
+    font-weight: bolder;
+    /* padding: 40px 65px; */
+    font-size: 30px;
+}
+
+/* <!-- /* {{{{{{{{{{{{{{{{{{{{{{{contact-sction}}}}}}}}}}}}}}}}}}}}}}} */
+.icons .icons-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    color: gray;
+    margin-right: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.icons .icons-inner:hover {
+    background-color: #f8c93b;
+    color: white;
+}
+
+
+.contact-form span{
+    color: #f8c93b;
+}
+.form-email-text{
+    color: #f8c93b;
+}
+
+.send-btn{
+    color: #f8c93b;
+    padding: 10px 15px;
+    border: 1px solid #f8c93b;
+    background-color: #f8c93b;
+    color: white;
+}
+
+.form-control:focus{
+border-color: #f8c93bcb;
+box-shadow: 0 0 0 .25rem #f8c93b81;
+}
